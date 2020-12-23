@@ -22,11 +22,13 @@ public class Ejemplo04 {
         int suma = 0;
         
         for (int fila = 0; fila < arreglo1.length; fila++) {
+            suma = 0;
             for (int col = 0; col < arreglo1[fila].length; col++) {
                 suma = suma + arreglo1[fila][col];
             }
+            System.out.printf("Suma de valores del arreglo: %d\n", suma);
         }
-        System.out.printf("Suma de valores del arreglo: %d\n", suma);
+        //System.out.printf("Suma de valores del arreglo: %d\n", suma);
     }
     
 }
